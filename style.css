@@ -1,0 +1,154 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f8f8f8;
+color:#222;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 8%;
+background:#111;
+position:sticky;
+top:0;
+}
+
+.logo{
+font-size:30px;
+font-weight:bold;
+color:#fff;
+}
+
+.logo span{
+color:#d4af37;
+}
+
+nav a{
+color:#fff;
+text-decoration:none;
+margin-left:20px;
+font-size:16px;
+}
+
+nav a:hover{
+color:#d4af37;
+}
+
+.hero{
+height:500px;
+background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+url("https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=1600");
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+}
+
+.hero h1{
+font-size:50px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:22px;
+margin-bottom:20px;
+}
+
+.btn{
+background:#d4af37;
+color:#111;
+padding:14px 28px;
+text-decoration:none;
+border-radius:6px;
+font-weight:bold;
+}
+
+.title{
+text-align:center;
+padding:50px 20px 20px;
+}
+
+.products{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:25px;
+padding:30px;
+}
+
+.card{
+width:280px;
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 4px 12px rgba(0,0,0,.12);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card img{
+width:100%;
+height:240px;
+object-fit:cover;
+}
+
+.card h3{
+padding:15px;
+}
+
+.card p{
+padding:0 15px 15px;
+color:#c89b00;
+font-weight:bold;
+font-size:20px;
+}
+
+.card button{
+margin:0 15px 20px;
+width:calc(100% - 30px);
+padding:12px;
+background:#111;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+.offer{
+background:#111;
+color:white;
+text-align:center;
+padding:60px 20px;
+}
+
+footer{
+background:#000;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+.whatsapp{
+position:fixed;
+right:20px;
+bottom:20px;
+background:#25D366;
+color:white;
+padding:14px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+  }
