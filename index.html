@@ -1,19 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mysha Shoe</title>
+
 <style>
-body{margin:0;font-family:Arial;background:#f5f5f5;}
-header{background:#111;color:#fff;text-align:center;padding:20px;}
-.hero{padding:50px 20px;text-align:center;background:#d4af37;color:#111;}
-.btn{display:inline-block;padding:12px 24px;background:#111;color:#fff;text-decoration:none;border-radius:8px;}
-.products{display:flex;flex-wrap:wrap;justify-content:center;gap:20px;padding:20px;}
-.card{background:#fff;padding:15px;border-radius:10px;width:220px;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,.2);}
-footer{background:#111;color:#fff;text-align:center;padding:15px;}
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#f5f5f5;
+}
+
+header{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+.hero{
+background:#d4af37;
+text-align:center;
+padding:50px 20px;
+}
+
+.hero h2{
+font-size:38px;
+margin:0;
+}
+
+.hero p{
+font-size:20px;
+}
+
+.btn{
+display:inline-block;
+padding:14px 30px;
+background:#111;
+color:white;
+text-decoration:none;
+border-radius:8px;
+margin-top:20px;
+}
+
+.products{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+padding:30px;
+gap:20px;
+}
+
+.card{
+background:white;
+width:300px;
+padding:20px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,.15);
+text-align:center;
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+.price{
+color:red;
+font-size:24px;
+font-weight:bold;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:40px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+}
 </style>
+
 </head>
+
 <body>
 
 <header>
@@ -24,36 +105,47 @@ footer{background:#111;color:#fff;text-align:center;padding:15px;}
 <section class="hero">
 <h2>New Collection 2026</h2>
 <p>Premium Quality Footwear in Bangladesh</p>
-<a class="btn" href="#">Shop Now</a>
+
+<a class="btn" href="#products">Shop Now</a>
 </section>
 
-<section class="products">
+<section class="products" id="products">
+
 <div class="card">
-<h3>Men's Shoes</h3>
-<p>Starting from ৳2,499</p>
+<img src="https://picsum.photos/400/300?1">
+<h2>Men's Sneakers</h2>
+<p class="price">৳2,499</p>
 </div>
 
 <div class="card">
-<h3>Women's Shoes</h3>
-<p>Starting from ৳1,999</p>
+<img src="https://picsum.photos/400/300?2">
+<h2>Women's Shoes</h2>
+<p class="price">৳1,999</p>
 </div>
 
 <div class="card">
-<h3>Kids' Shoes</h3>
-<p>Starting from ৳1,299</p>
+<img src="https://picsum.photos/400/300?3">
+<h2>Casual Shoes</h2>
+<p class="price">৳2,999</p>
 </div>
+
 </section>
 
 <footer>
-© 2026 Mysha Shoe. All Rights Reserved.
+
+<h2>Contact Us</h2>
+
+<p>📞 09658857716</p>
+
+<p>📍 Tangail, Bangladesh</p>
+
+<p>Facebook: Mysha Shoe</p>
+
 </footer>
+
+<a class="whatsapp" href="https://wa.me/8809658857716">
+WhatsApp
+</a>
 
 </body>
 </html>
-<img src="shoe1.jpg" alt="Men's Shoe" width="250">
-<a href="https://wa.me/8801738410719" class="btn">WhatsApp Order</a>
-<p>📞 01738410719</p>
-<p>📍 Tangail, Bangladesh</p>
-<a href="#products" class="btn">Shop Now</a>
-<section id="products">
-  
